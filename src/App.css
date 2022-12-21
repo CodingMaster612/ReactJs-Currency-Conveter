@@ -440,6 +440,15 @@ section{
   color: #044463;
 }
 
+h5{
+  font-size: 20px;
+  position: relative;
+  left:-600px; 
+  top: 360px;
+  text-align: left;
+  font-weight: bold;
+}
+
 .icon-download{
   font-size: 40px;
   position: relative;
@@ -455,6 +464,6 @@ section{
   text-align: center;
 }
 .icon-bitcoin{
-  font-size: 50px;
+  font-size: 200px;
   
 }

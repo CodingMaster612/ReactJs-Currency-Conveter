@@ -25,9 +25,47 @@ export default function HomePage() {
 
    return (
       <header style={HeaderStyle}>
-         <div className="searchbar-header">
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         {/* <div className="searchbar-header"> */}
 
-            <Link to="/home">
+            {/* <Link to="/home">
                <div className="icon-home">
                   <FontAwesomeIcon icon={faHouse} />
                </div>
@@ -59,20 +97,20 @@ export default function HomePage() {
          <div className="main">
             <div className="icon">
                <FontAwesomeIcon icon={faSearch} />
-            </div>
+            </div> */}
 
 
-            <div className="search">
+            {/* <div className="search">
 
                <TextField id="outlined-basic" variant="outlined" fullWidth label="Search" />
 
-            </div>
-            <Link to="/chart">
+            </div> */}
+            {/* <Link to="/chart">
                   <div className="icon-bitcoin">
                      <FontAwesomeIcon icon={faBitcoin} />
                   </div>
-               </Link>
-               <Link to="/currency">
+               </Link> */}
+               {/* <Link to="/currency">
                   <div className="icon-chart">
                      <FontAwesomeIcon icon={faChartSimple} />
                   </div>
@@ -81,21 +119,21 @@ export default function HomePage() {
                   <div className="icon-download">
                      <FontAwesomeIcon icon={faDownload} />
                   </div>
-               </Link>
+               </Link> */}
 
-         <div>
+         {/* <div>
 
+            <h5>Contact information: </h5>
+         </div> */}
 
-         </div>
+         {/* <div className="box">
 
-         <div className="box">
-
-         </div>
-
-
+         </div> */}
 
 
-      </div>
+
+
+      {/* </div> */}
 
 
 
@@ -105,8 +143,10 @@ export default function HomePage() {
 const HeaderStyle = {
    width: "100%",
    height: "100vh",
-   background: `url(${BackgroundImage})`,
+   backgroundColor: "white",
+   // background: `url(${BackgroundImage})`,
    backgroundPosition: "center",
    backgroundRepeat: "no-repeat",
    backgroundSize: "cover"
+
 }

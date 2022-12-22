@@ -6,7 +6,9 @@ import TextField from "@mui/material/TextField";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHouse, faUser, faBars, faWallet, faChartSimple, faDownload } from "@fortawesome/free-solid-svg-icons";
 import '../../App.css'
-import BackgroundImage from '../../assets/images/pink2.png'
+import PillowImage from '../../assets/images/pillowLogo.png'
+
+import BackgroundImage from '../../assets/images/bottle.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage() {
 
@@ -27,12 +29,10 @@ export default function HomePage() {
       <header style={HeaderStyle}>
          
          <div className="wrapper-v2">
-         <nav className="navbar-v2">
-            <img className="logo" src= {img} />
+         <nav className="navbar">
+            {/* <img className="logo"src={PillowImage} alt="pillow" /> */}
             <ul>
-               <Link to="/">
-                  <li>Home</li>
-               </Link>
+                  <li><a href="/">Home</a></li>
             </ul>
          </nav>
          </div>
@@ -153,7 +153,7 @@ const HeaderStyle = {
    width: "100%",
    height: "100vh",
    backgroundColor: "white",
-   // background: `url(${BackgroundImage})`,
+   background: `url(${BackgroundImage})`,
    backgroundPosition: "center",
    backgroundRepeat: "no-repeat",
    backgroundSize: "cover"

@@ -24,7 +24,7 @@ h2{
   top: 20px;
 }
 
-img{
+.pillow{
      border-radius: 500px;
     height: auto; 
     width: auto; 
@@ -467,14 +467,53 @@ h5{
   font-size: 200px;
   
 }
-.navbar-v2{
+.navbar{
   height: 80px;
   width: 100%;
   background: rgba(0,0,0,0.4);
 }
+.navbar ul{
+  float: right;
+  margin-right: 20px;
+
+}
+.navbar ul li{
+  list-style: none; 
+  margin: 0 8px;
+  display: inline-block;
+  line-height: 80px;
+
+}
+.navbar ul li a{
+  text-decoration:  none;
+  color: white;
+  font-size:  20px;
+  padding: 6px 13px;
+  font-family: 'Roboto' , sans-serif;
+  transition: 4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+  background: red;
+  border-radius: 2px;
+}
+
+
+
+
+
+
 
 .logo{
-  width: 140px;
-  height: auto;
-  padding: 20px 100px;
+    border-radius: 500px;
+    height: auto; 
+    width: auto; 
+    max-width: 115px; 
+    max-height: 115px;
+    object-position: center top;
+    position: relative;
+    left: 120px;
+    top: -2px;
 }
+

@@ -24,7 +24,7 @@ export default function SignUpPage() {
         </div>
         <div className="wrapper">
             
-            <img src={PillowImage} alt="pillow"></img>
+            <img className="pillow" src={PillowImage} alt="pillow"></img>
             <div className="sign-up">
             <h2>Sign Up Today</h2>
             </div>

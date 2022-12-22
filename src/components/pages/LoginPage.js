@@ -26,7 +26,7 @@ export default function SignInPage() {
             <div className="wrapper">
 
 
-                <img src={PillowImage} alt="pillow"></img>
+                <img  className="pillow"src={PillowImage} alt="pillow"></img>
 
                 <h2>Welcome To Pillow</h2>
 

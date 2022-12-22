@@ -467,3 +467,14 @@ h5{
   font-size: 200px;
   
 }
+.navbar-v2{
+  height: 80px;
+  width: 100%;
+  background: rgba(0,0,0,0.4);
+}
+
+.logo{
+  width: 140px;
+  height: auto;
+  padding: 20px 100px;
+}

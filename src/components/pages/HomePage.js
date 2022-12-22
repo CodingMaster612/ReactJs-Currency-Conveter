@@ -26,7 +26,16 @@ export default function HomePage() {
    return (
       <header style={HeaderStyle}>
          
-         
+         <div className="wrapper-v2">
+         <nav className="navbar-v2">
+            <img className="logo" src= {img} />
+            <ul>
+               <Link to="/">
+                  <li>Home</li>
+               </Link>
+            </ul>
+         </nav>
+         </div>
          
          
          

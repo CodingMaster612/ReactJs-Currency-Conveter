@@ -513,7 +513,11 @@ h5{
     max-height: 115px;
     object-position: center top;
     position: relative;
-    left: 120px;
+    left: 20px;
     top: -2px;
+}
+
+.bitcoin{
+  color:green;
 }
 

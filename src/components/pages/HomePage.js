@@ -6,7 +6,9 @@ import TextField from "@mui/material/TextField";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faHouse, faUser, faBars, faWallet, faChartSimple, faDownload } from "@fortawesome/free-solid-svg-icons";
 import '../../App.css'
-import PillowImage from '../../assets/images/pillowLogo.png'
+import User from '../../assets/images/user-regular.svg'
+import Bitcoin from '../../assets/images/bitcoin.svg'
+
 
 import BackgroundImage from '../../assets/images/bottle.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
@@ -32,7 +34,11 @@ export default function HomePage() {
          <nav className="navbar">
             {/* <img className="logo"src={PillowImage} alt="pillow" /> */}
             <ul>
-                  <li><a href="/">Home</a></li>
+                 
+                  <li><a href="/"><img src={User}/></a></li>
+                  <li><a href="/"><img src={Bitcoin}/></a></li>
+                  <li><a href="/"><img src={User}/></a></li>
+                  <li><a href="/"><img src={User}/></a></li>
             </ul>
          </nav>
          </div>

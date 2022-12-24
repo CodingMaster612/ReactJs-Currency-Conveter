@@ -204,7 +204,14 @@ form span {
   position: relative;
   left: -5px;
   top: 185px;
+  
+  
 }
+
+
+
+
+
 
 
 .user-container input {
@@ -519,5 +526,24 @@ h5{
 
 .bitcoin{
   color:green;
+}
+
+
+.form-field {
+  position: relative;
+  display: inline-block;
+}
+
+.icon-envelope {
+  position: relative;
+  left:2px; 
+  top: 37px;
+
+
+}
+.icon-pass{
+  position: relative;
+  left:2px; 
+  top: 37px;
 }
 

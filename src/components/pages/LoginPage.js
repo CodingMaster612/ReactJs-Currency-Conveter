@@ -3,17 +3,18 @@ import { Link } from 'react-router-dom'
 import BackgroundImage from '../../assets/images/pink.png'
 import PillowImage from '../../assets/images/pillowLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope , faKey} from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faTwitter  } from '@fortawesome/free-brands-svg-icons';
 import '../../App.css'
 
 export default function SignInPage() {
     return (
         <header style={HeaderStyle}>
 
-            
 
 
-            
+
+
 
             <div className="wrapper">
 
@@ -25,15 +26,19 @@ export default function SignInPage() {
                 <form action="/login">
                     <p>
                         <div className="user-container">
-                            <input type="text" name="first_name" required placeholder=" Email..." />
+                            <FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/>
+                            <input type="text" name="user" required placeholder=" Email..." />
                         </div>
+
                     </p>
                     <p>
 
                         <div className="pass-container">
-                            <input type="password" name="password" placeholder="Password..." required />
+                        <FontAwesomeIcon icon={faKey} className="icon-pass"/>
+                            <input type="password" name="password" className="input-field" placeholder="Password..." required />
+                           
                         </div>
-                        
+
                     </p>
                     <p>
                         <button id="sub_btn" type="submit">Login</button>
@@ -41,8 +46,10 @@ export default function SignInPage() {
 
                     </p>
 
-                </form>
+                    
 
+                </form>
+                
 
 
 

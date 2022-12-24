@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import BackgroundImage from '../../assets/images/pink.png'
 import PillowImage from '../../assets/images/pillowLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope , faKey} from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope , faKey } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faInstagram, faTwitter  } from '@fortawesome/free-brands-svg-icons';
 import '../../App.css'
 
@@ -27,7 +27,7 @@ export default function SignInPage() {
                     <p>
                         <div className="user-container">
                             <FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/>
-                            <input type="text" name="user" required placeholder=" Email..." />
+                            <input type="text" name="user" required placeholder="  Email..." />
                         </div>
 
                     </p>
@@ -35,7 +35,7 @@ export default function SignInPage() {
 
                         <div className="pass-container">
                         <FontAwesomeIcon icon={faKey} className="icon-pass"/>
-                            <input type="password" name="password" className="input-field" placeholder="Password..." required />
+                            <input type="password" name="password" className="input-field" placeholder="  Password..." required />
                            
                         </div>
 

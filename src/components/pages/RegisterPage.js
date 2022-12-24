@@ -2,7 +2,9 @@ import React from 'react'
 import BackgroundImage from '../../assets/images/pink.png'
 import PillowImage from '../../assets/images/pillowLogo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faMailchimp, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope , faKey} from '@fortawesome/free-solid-svg-icons';
+
 import '../../App.css'
 
 export default function SignUpPage() {
@@ -27,19 +29,21 @@ export default function SignUpPage() {
             <form action="/home">
             <div className="user-container">
                 <p>
-                
-                    <input type="text" name="first_name" placeholder="Username..." required />
+                <FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/>
+                    <input type="text" name="first_name" placeholder="  Username..." required />
                     
                 </p>
                 <p>
-                   
-                    <input type="email" name="email" placeholder="Email.." required />
+                <FontAwesomeIcon icon={faMailchimp} className="icon-chimp"/>
+                    <input type="email" name="email" placeholder="  Email.." required />
                     
                 </p>
                 </div>
                 <p>
                 <div className="pass-container">
-                    <input type="password" name="password"placeholder="Password..."  requiredc />
+                    
+                <FontAwesomeIcon icon={faKey} className="icon-pass"/>
+                    <input type="password" name="password"placeholder="  Password..."  requiredc />
                     </div>
                 </p>
                 

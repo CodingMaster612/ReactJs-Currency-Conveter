@@ -11,25 +11,18 @@ export default function SignUpPage() {
 
          <header style={ HeaderStyle }>
         
-        <div className="searchbar-header">
-                <div className="topnav">
-
-                    <a class="active" href="/home">Home</a>
-                    
-                   
-                    {/* <input type="search" id="search" placeholder="Search" /> */}
-                </div>
         
         
-        </div>
+        
+        
         <div className="wrapper">
-            
+            <div>
             <img className="pillow" src={PillowImage} alt="pillow"></img>
+            </div>
             <div className="sign-up">
-            <h2>Sign Up Today</h2>
+           
             </div>
            
-            {/* <h5>Enjoy Access to the revolutionary Currency Converter</h5> */}
             
             <form action="/home">
             <div className="user-container">
@@ -53,15 +46,7 @@ export default function SignUpPage() {
                 <p>
                     <button id="sub_btn" type="submit">Register</button>
                 </p>
-                <a href="www.facebook.com">
-                        <FontAwesomeIcon icon={faFacebook}  className="icon-container"/>
-                    </a>
-                    <a href="www.instagram.com">
-                        <FontAwesomeIcon icon={faInstagram}className="icon-container"/> 
-                    </a>
-                    <a href="www.linkedin.com">
-                        <FontAwesomeIcon icon={faTwitter} className="icon-container"/> 
-                    </a>
+               
             </form>
             
         </div>

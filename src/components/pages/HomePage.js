@@ -32,14 +32,7 @@ export default function HomePage() {
          
          <div className="wrapper-v2">
          <nav className="navbar">
-            {/* <img className="logo"src={PillowImage} alt="pillow" /> */}
-            <ul>
-                 
-                  <li><a href="/"><img src={User}/></a></li>
-                  <li><a href="/"><img src={Bitcoin}/></a></li>
-                  <li><a href="/"><img src={User}/></a></li>
-                  <li><a href="/"><img src={User}/></a></li>
-            </ul>
+          
          </nav>
          </div>
          

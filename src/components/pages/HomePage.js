@@ -32,133 +32,32 @@ export default function HomePage() {
 
          <div className="wrapper-v2">
             <nav className="navbar">
-               
+
                <ul>
                   <li><a href="">Login</a></li>
-                  <li><a href="">Sign in</a></li>
                   <li><a href="">Wallet</a></li>
 
-                  
-                  
-                 
+
+
+
+
                </ul>
                <div className="bitcoin">
-                  <FontAwesomeIcon icon ={faBitcoin} />
+
+
+                  <FontAwesomeIcon icon={faBitcoin} />
                </div>
-                  
-               
-               
+
+
+
             </nav>
          </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         {/* <div className="searchbar-header"> */}
-
-         {/* <Link to="/home">
-               <div className="icon-home">
-                  <FontAwesomeIcon icon={faHouse} />
-               </div>
-            </Link>
-            <div>
-               <Link to="/profile">
-                  <div className="icon-profile">
-                     <FontAwesomeIcon icon={faUser} />
-                  </div>
-               </Link>
-            </div>
-
-            <div>
-               <Link to="/list">
-                  <div className="icon-bar">
-                     <FontAwesomeIcon icon={faBars} />
-                  </div>
-               </Link>
-            </div>
-            <div>
-               <Link to="/wallet">
-                  <div className="icon-wallet">
-                     <FontAwesomeIcon icon={faWallet} />
-                  </div>
-               </Link>
-            </div>
-
+         <div className="search-bar">
+         <input type="text" placeholder="  Search" />
+         
          </div>
-         <div className="main">
-            <div className="icon">
-               <FontAwesomeIcon icon={faSearch} />
-            </div> */}
-
-
-         {/* <div className="search">
-
-               <TextField id="outlined-basic" variant="outlined" fullWidth label="Search" />
-
-            </div> */}
-         {/* <Link to="/chart">
-                  <div className="icon-bitcoin">
-                     <FontAwesomeIcon icon={faBitcoin} />
-                  </div>
-               </Link> */}
-         {/* <Link to="/currency">
-                  <div className="icon-chart">
-                     <FontAwesomeIcon icon={faChartSimple} />
-                  </div>
-               </Link>
-               <Link to="/download">
-                  <div className="icon-download">
-                     <FontAwesomeIcon icon={faDownload} />
-                  </div>
-               </Link> */}
-
-         {/* <div>
-
-            <h5>Contact information: </h5>
-         </div> */}
-
-         {/* <div className="box">
-
-         </div> */}
-
-
-
-
-         {/* </div> */}
-
-
+         
+         
 
       </header >
    )

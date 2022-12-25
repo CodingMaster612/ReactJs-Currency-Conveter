@@ -9,8 +9,8 @@ import '../../App.css'
 import User from '../../assets/images/user-regular.svg'
 import Bitcoin from '../../assets/images/bitcoin.svg'
 import ReactSearchBox from "react-search-box";
-import pillowImg from '../../assets/images/pillowimg.png'
-
+import sleep from '../../assets/images/sleep.png'
+import sleepPG from '../../assets/images/sleepPG.png'
 import BackgroundImage from '../../assets/images/PB.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage() {
@@ -43,31 +43,34 @@ export default function HomePage() {
 
 
                </ul>
-              
+
 
 
 
             </nav>
 
-            {/* <div className="pillow-img">
-               <img src={pillowImg} />
-            </div> */}
-            
+            <div className="pillow-img">
+               <img src={sleep} />
+            </div>
+
+            <div className="sleepPG">
+         <img src={sleepPG} />
+
+         </div>
+
+         </div>
+         <div>
+            <div className="container">
+               <form action="" className="search-bar">
+                  <input type="text" placeholder=" Search..." name="q" />
+                  <button type="submit"><img src={Bitcoin} /></button>
+
+               </form>
+            </div>
          </div>
          
-      <div className="container">
-         <form action="" className="search-bar">
-            <input type="text" placeholder=" Search..." name ="q" />
-         <button type="submit"><img src={Bitcoin}/></button>
-         
-         </form>
-      </div>
 
-         
-         
-         
-         
-         
+
 
       </header >
    )

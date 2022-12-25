@@ -9,6 +9,7 @@ import '../../App.css'
 import User from '../../assets/images/user-regular.svg'
 import Bitcoin from '../../assets/images/bitcoin.svg'
 import ReactSearchBox from "react-search-box";
+import pillowImg from '../../assets/images/pillowimg.png'
 
 import BackgroundImage from '../../assets/images/red.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
@@ -42,24 +43,22 @@ export default function HomePage() {
 
 
                </ul>
-               <div className="bitcoin">
-
-
-                  <FontAwesomeIcon icon={faBitcoin} />
-               </div>
+              
 
 
 
             </nav>
 
-            
+            <div className="pillow-img">
+               <img src={pillowImg} />
+            </div>
             
          </div>
          
       <div className="container">
          <form action="" className="search-bar">
-            <input type="text" placeholder="search" name ="q" />
-         <button type="submit"><img src=""/></button>
+            <input type="text" placeholder=" Search..." name ="q" />
+         <button type="submit"><img src={Bitcoin}/></button>
          
          </form>
       </div>

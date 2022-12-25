@@ -611,8 +611,15 @@ form{
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  background: #58629b;
+  background: gold;
   cursor: pointer;
 
 }
-
+.pillow-img img {
+  position: relative;
+  margin-left: auto;
+  top:-75px;
+  left: 30px;
+  height:65px;
+  border-radius: 60px;
+}

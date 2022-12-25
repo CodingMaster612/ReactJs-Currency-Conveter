@@ -525,7 +525,12 @@ h5{
 }
 
 .bitcoin{
-  color:green;
+  color:gold;
+  left: 20px;
+  top:13px;
+  font-size: 50px;
+  position: relative;
+
 }
 
 

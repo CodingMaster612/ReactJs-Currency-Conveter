@@ -10,7 +10,7 @@ import User from '../../assets/images/user-regular.svg'
 import Bitcoin from '../../assets/images/bitcoin.svg'
 
 
-import BackgroundImage from '../../assets/images/bottle.png'
+import BackgroundImage from '../../assets/images/red.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage() {
 
@@ -29,51 +29,66 @@ export default function HomePage() {
 
    return (
       <header style={HeaderStyle}>
-         
+
          <div className="wrapper-v2">
-         <nav className="navbar">
-          
-         </nav>
+            <nav className="navbar">
+               
+               <ul>
+                  <li><a href="">Login</a></li>
+                  <li><a href="">Sign in</a></li>
+                  <li><a href="">Wallet</a></li>
+
+                  
+                  
+                 
+               </ul>
+               <div className="bitcoin">
+                  <FontAwesomeIcon icon ={faBitcoin} />
+               </div>
+                  
+               
+               
+            </nav>
          </div>
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
-         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
          {/* <div className="searchbar-header"> */}
 
-            {/* <Link to="/home">
+         {/* <Link to="/home">
                <div className="icon-home">
                   <FontAwesomeIcon icon={faHouse} />
                </div>
@@ -108,17 +123,17 @@ export default function HomePage() {
             </div> */}
 
 
-            {/* <div className="search">
+         {/* <div className="search">
 
                <TextField id="outlined-basic" variant="outlined" fullWidth label="Search" />
 
             </div> */}
-            {/* <Link to="/chart">
+         {/* <Link to="/chart">
                   <div className="icon-bitcoin">
                      <FontAwesomeIcon icon={faBitcoin} />
                   </div>
                </Link> */}
-               {/* <Link to="/currency">
+         {/* <Link to="/currency">
                   <div className="icon-chart">
                      <FontAwesomeIcon icon={faChartSimple} />
                   </div>
@@ -141,7 +156,7 @@ export default function HomePage() {
 
 
 
-      {/* </div> */}
+         {/* </div> */}
 
 
 

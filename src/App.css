@@ -125,6 +125,11 @@ form {
   height: 600px;
 }
 
+.container form{
+  height: 100%;
+}
+
+
 form label {
   float: left;
   font-size: .9rem;
@@ -480,7 +485,9 @@ h5{
 .navbar{
   height: 80px;
   width: 100%;
-  background: rgba(0,0,0,0.4);
+  /* background: rgba(0,0,0,0.4); */
+  background: black;
+  opacity: 0.1;
 }
 .navbar ul{
   float: right;
@@ -496,8 +503,9 @@ h5{
 }
 .navbar ul li a{
   text-decoration:  none;
-  color: white;
+  color: yellowgreen;
   font-size:  20px;
+  font-weight: bold;
   padding: 6px 13px;
   font-family: 'Roboto' , sans-serif;
   transition: 4s;
@@ -505,7 +513,7 @@ h5{
 
 .navbar ul li a.active,
 .navbar ul li a:hover{
-  background: red;
+  background: black;
   border-radius: 2px;
 }
 
@@ -577,9 +585,7 @@ h5{
 
 }
 
-form{
-  height: 10%;
-}
+
 
 .search-bar{
   width: 100%;
@@ -602,7 +608,8 @@ form{
   color: #cac7ff;
 }
 ::placeholder{
-  color: #cac7ff;
+  color: black;
+
 
 }
 

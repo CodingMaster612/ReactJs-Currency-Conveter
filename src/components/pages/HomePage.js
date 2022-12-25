@@ -11,7 +11,7 @@ import Bitcoin from '../../assets/images/bitcoin.svg'
 import ReactSearchBox from "react-search-box";
 import pillowImg from '../../assets/images/pillowimg.png'
 
-import BackgroundImage from '../../assets/images/red.png'
+import BackgroundImage from '../../assets/images/PB.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage() {
 
@@ -49,9 +49,9 @@ export default function HomePage() {
 
             </nav>
 
-            <div className="pillow-img">
+            {/* <div className="pillow-img">
                <img src={pillowImg} />
-            </div>
+            </div> */}
             
          </div>
          

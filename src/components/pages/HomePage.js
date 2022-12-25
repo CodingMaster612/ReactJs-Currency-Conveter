@@ -12,6 +12,8 @@ import ReactSearchBox from "react-search-box";
 import sleep from '../../assets/images/sleep.png'
 import sleepPG from '../../assets/images/sleepPG.png'
 import BackgroundImage from '../../assets/images/PB.png'
+import BackgroundImage2 from '../../assets/images/PB.png'
+
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
 export default function HomePage() {
 
@@ -69,7 +71,7 @@ export default function HomePage() {
             </div>
          </div>
          
-
+      
 
 
       </header >

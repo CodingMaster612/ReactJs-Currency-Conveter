@@ -54,7 +54,7 @@ export default function HomePage() {
             </div>
 
             <div className="sleepPG">
-         <img src={sleepPG} />
+         <img src="https://swall.teahub.io/photos/small/234-2344330_linux-penguin-black-background.png" />
 
          </div>
 

@@ -8,7 +8,7 @@ import { faSearch, faHouse, faUser, faBars, faWallet, faChartSimple, faDownload 
 import '../../App.css'
 import User from '../../assets/images/user-regular.svg'
 import Bitcoin from '../../assets/images/bitcoin.svg'
-
+import ReactSearchBox from "react-search-box";
 
 import BackgroundImage from '../../assets/images/red.png'
 import { faBitcoin } from "@fortawesome/free-brands-svg-icons";
@@ -51,11 +51,22 @@ export default function HomePage() {
 
 
             </nav>
+
+            
+            
          </div>
-         <div className="search-bar">
-         <input type="text" placeholder="  Search" />
          
-         </div>
+      <div className="container">
+         <form action="" className="search-bar">
+            <input type="text" placeholder="search" name ="q" />
+         <button type="submit"><img src=""/></button>
+         
+         </form>
+      </div>
+
+         
+         
+         
          
          
 

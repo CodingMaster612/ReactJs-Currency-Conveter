@@ -10,16 +10,21 @@ export default function Converter() {
         <header style={HeaderStyle}>
 
             <div className="white-box">
-               <Tabs />
+                <Tabs />
 
-                
+
             </div>
 
-        
 
-            <div>
-     
-    </div>
+
+
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+
 
 
 
@@ -27,7 +32,7 @@ export default function Converter() {
 
         </header>
 
-        
+
     )
 }
 

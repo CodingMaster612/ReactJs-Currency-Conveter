@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import LandingPage from './components/pages/LandingPage.js'
+import Converter from './components/pages/Converter.js'
 import LoginPage from './components/pages/LoginPage.js'
 import RegisterPage from './components/pages/RegisterPage.js'
 import ForgetPasswordPage from './components/pages/ForgetPasswordPage.js'
@@ -16,7 +16,7 @@ export default function App() {
        
             
                 <Routes>
-                    <Route exact path="/home" element={< LandingPage/> } />
+                    <Route exact path="/convert" element={< Converter/> } />
                     <Route path="/login" element={ <LoginPage/> } />
                     <Route path="/register" element={< RegisterPage/> } />
                     <Route path="/forget-password" element={ <ForgetPasswordPage/> } />

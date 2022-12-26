@@ -34,6 +34,7 @@ h2{
     position: relative;
     left: 64px;
     top: 200px;
+    opacity: 0.8;
 }
 
 
@@ -587,8 +588,8 @@ h5{
 }
 .sleepPG img {
 position: relative;
-left:900px;
-top: 50px;
+left:750px;
+top: 20px;
  height: 170px;
  width:  170px;
  border-radius: 60px;

@@ -27,7 +27,7 @@ export default function SignInPage() {
                     <p>
                         <div className="user-container">
                             <FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/>
-                            <input type="text" name="user" required placeholder="  Email..." />
+                            <input type="text" name="user" className="input-field" placeholder="  Email..." />
                         </div>
 
                     </p>

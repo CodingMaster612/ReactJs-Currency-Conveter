@@ -30,12 +30,12 @@ export default function SignUpPage() {
             <div className="user-container">
                 <p>
                 <FontAwesomeIcon icon={faEnvelope} className="icon-envelope"/>
-                    <input type="text" name="first_name" placeholder="  Username..." required />
+                    <input type="text" name="first_name" className="input-field" placeholder="  Username..." required />
                     
                 </p>
                 <p>
                 <FontAwesomeIcon icon={faMailchimp} className="icon-chimp"/>
-                    <input type="email" name="email" placeholder="  Email.." required />
+                    <input type="email" name="email" className="input-field" placeholder="  Email.." required />
                     
                 </p>
                 </div>
@@ -43,7 +43,7 @@ export default function SignUpPage() {
                 <div className="pass-container">
                     
                 <FontAwesomeIcon icon={faKey} className="icon-pass"/>
-                    <input type="password" name="password"placeholder="  Password..."  requiredc />
+                    <input type="password" name="password" className="input-field" placeholder="  Password..."  requiredc />
                     </div>
                 </p>
                 

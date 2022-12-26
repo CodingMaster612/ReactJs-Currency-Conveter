@@ -790,3 +790,8 @@ button {
   background-color: black;
   color: white;
 }
+
+.input-field{
+  border-radius: 25px;
+}
+

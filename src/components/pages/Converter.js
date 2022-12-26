@@ -19,10 +19,10 @@ export default function Converter() {
 
 
             <div class="topnav">
-                <a class="active" href="#home">Home</a>
-                <a href="#news">News</a>
-                <a href="#contact">Contact</a>
-                <a href="#about">About</a>
+                <a class="active" href="#home">Send Money</a>
+                <a href="">Converter</a>
+                <a href="">Tools</a>
+                <a href="">Resources</a>
             </div>
 
 
